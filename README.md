@@ -23,6 +23,7 @@ Self oscilation if resonance pushed to maximum, can be adjusted with 2 trimmers 
 You'll find the schematic of this module below: 
 
 ![single MS20-VCF schematic](documentation/image/MS20-VCF-schematic.svg)
+![single MS20-VCF schematic](documentation/image/MS20-VCF-schematic.svg)
 
 Uses an SMD LM13700 because the DIP ones are not produced anymore.
 
