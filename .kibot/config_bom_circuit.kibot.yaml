@@ -1,0 +1,31 @@
+
+kibot:
+  version: 1
+
+outputs:
+
+
+- name: basic_ibom
+  comment: Interactive HTML BoM
+  type: ibom
+  dir: BoM
+  output_id: -circuit
+
+# - name: render_3d
+#   comment: "How to draw a step"
+#   type: render_3d
+#   run_by_default: false
+#   options:
+#     format: png
+#     ray_tracing: true
+#     zoom: 3
+
+# - name: Populate
+#   comment: "Guide de montage PCB"
+#   type: populate
+#   dir: guide-circuit
+#   output_id: -circuit
+#   options:
+#     renderer: render_3d
+#     format: md
+#     input: .kibot/Populate.md
