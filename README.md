@@ -22,7 +22,7 @@ Self oscilation if resonance pushed to maximum, can be adjusted with 2 trimmers 
 
 You'll find the schematic of this module below: 
 
-![single MS20-VCF schematic](Documentation/image/MS20-VCF-schematic.svg)
+![single MS20-VCF schematic](documentation/image/MS20-VCF-schematic.svg)
 
 Uses an SMD LM13700 because the DIP ones are not produced anymore.
 
@@ -40,12 +40,14 @@ For the next part, always place them without soldering them on:
 
 Once placed, put in place the front panel, then fasten all components to it. Once this is done, you can solder them. 
 
-![3D single MS20-VCF(front)](Documentation/image/MS20-VCF-3D_top.png)
+![3D single MS20-VCF(front)](documentation/image/MS20-VCF-3D_top.png)
 
-![3D single MS20-VCF(back)](Documentation/image/MS20-VCF-3D_bottom.png)
+![3D single MS20-VCF(back)](documentation/image/MS20-VCF-3D_bottom.png)
 
-![3D single MS20-VCF(iso)](Documentation/image/MS20-VCF-3D_top30deg.png)
+![3D single MS20-VCF(iso)](documentation/image/MS20-VCF-3D_top30deg.png)
 
-[See bom globale](Documentation/BoM/MS20-VCF-ibom-global.html)
+[See bom globale](documentation/bom/MS20-VCF-ibom-global.html)
 
-[See bom board jack](Documentation/BoM/MS20-VCF-ibom-jack.html)
+[See bom board jack](documentation/bom/MS20-VCF-ibom-jack.html)
+
+[See bom board circuit](documentation/bom/MS20-VCF-ibom-circuit.html)
