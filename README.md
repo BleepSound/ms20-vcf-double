@@ -7,6 +7,10 @@ layout: single
 
 MS20-VCF clone based on BartonSynth version.
 
+2 filters in one with a possibility to bridge them and get a band pass filter.
+
+When using the band pass mode, signal IN on filter 1 and out on filter 2.
+
 cutoff + resonance, with a switch to chose low pass or high pass mode.
 
 CV control on the filter cutoff.
