@@ -15,13 +15,13 @@ env:
   Timezone: Europe/Paris
   # Set this to the output folder for all of the generated files. Unless you have a very
   # good reason to change this you should leave it as KiBotOutput.
-  BOMFolder: BoM
+  BOMFolder: bom
   # Set this to the output folder for all of the generated files. Unless you have a very
   # good reason to change this you should leave it as KiBotOutput.
-  DocFolder: Documentation
+  DocFolder: documentation
   # Set this to the output folder for all of the generated files. Unless you have a very
   # good reason to change this you should leave it as KiBotOutput.
-  GerberFolder: Gerber
+  GerberFolder: gerber
   # Set this to the version to include in the schematic and PCB. Since this
   # script runs outside of the release process it can't pull a version
   # number automatically from GitHub..

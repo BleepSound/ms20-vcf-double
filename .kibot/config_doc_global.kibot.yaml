@@ -8,7 +8,7 @@ outputs:
 - name: generic_bom_xlsx
   comment: Generic Bill of Materials in XLSX format
   type: bom
-  dir: BoM
+  dir: bom
   options:
     format: XLSX
     columns:
@@ -24,7 +24,7 @@ outputs:
 - name: basic_ibom
   comment: Interactive HTML BoM
   type: ibom
-  dir: BoM
+  dir: bom
   output_id: -global
 
 - name: basic_pcbdraw_png_set_black_hasl_top

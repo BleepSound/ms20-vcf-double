@@ -8,7 +8,7 @@ outputs:
 - name: basic_ibom
   comment: Interactive HTML BoM
   type: ibom
-  dir: BoM
+  dir: bom
   output_id: -jack
 
 - name: render_3d
@@ -28,4 +28,4 @@ outputs:
   options:
     renderer: render_3d
     format: md
-    input: .kibot/Populate.md
+    input: .kibot/Populate_jack.md
