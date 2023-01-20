@@ -16,10 +16,15 @@ outputs:
     - Description
     - References
     - Value
+    - Footprint
     - Quantity Per PCB
     - Comment
+    group_fields:
+      - Value
+      - Footprint
     count_smd_tht: true
-    logo: false
+    xlsx: 
+      logo: false
 
 - name: basic_ibom
   comment: Interactive HTML BoM
