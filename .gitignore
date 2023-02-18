@@ -30,3 +30,7 @@ fp-info-cache
 
 # Jekyll files
 _site
+
+# Other
+Makefile
+Gemfile.lock
