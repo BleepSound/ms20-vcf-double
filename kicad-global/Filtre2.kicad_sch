@@ -3176,7 +3176,7 @@
     (property "Reference" "ResLv2" (id 0) (at 191.77 99.06 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "3.3k" (id 1) (at 193.04 96.52 90)
+    (property "Value" "10k" (id 1) (at 193.04 96.52 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal" (id 2) (at 195.58 96.52 0)

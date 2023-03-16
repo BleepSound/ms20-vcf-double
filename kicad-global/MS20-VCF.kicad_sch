@@ -5417,7 +5417,7 @@
       (reference "ResLv1") (unit 1) (value "10k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000615732ed/00000000-0000-0000-0000-0000615c9890"
-      (reference "ResLv2") (unit 1) (value "3.3k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal")
+      (reference "ResLv2") (unit 1) (value "10k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000616e3eb9"
       (reference "ResVol1") (unit 1) (value "10k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal")
