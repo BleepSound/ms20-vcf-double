@@ -1,6 +1,6 @@
 # Populate Manual for MS20-VCF-Double-circuitboard
 
-Follow this manual to populate the PCB: 
+Follow this manual to populate the PCB:
 
 The basic rule is, always go from the smallest to the highest component on the board !
 
@@ -13,7 +13,7 @@ The basic rule is, always go from the smallest to the highest component on the b
 
 ![step](img/populating_2.png)
 
-####  Start by the SMD components, here U1 and U3, the LM13700s. 
+####  Start by the SMD components, here U1 and U3, the LM13700s.
 
 ![step](img/populating_3.png)
 
@@ -52,7 +52,7 @@ The back is done, we can flip the PCB and start the front !
 
 ![step](img/populating_11.png)
 
-####  Add the socket for the TL072, making sure you get the orientation right. Don't add the Tl072 yet, you'll add it at the end. 
+####  Add the socket for the TL072, making sure you get the orientation right. Don't add the Tl072 yet, you'll add it at the end.
 
 ![step](img/populating_12.png)
 
