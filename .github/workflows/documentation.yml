@@ -43,7 +43,7 @@ jobs:
       run: echo "{date_only}={$(TZ='${{ env.Timezone }}' date +'%Y-%m-%d')}" >> $GITHUB_OUTPUT
     
     - name: Generate schematic documentation
-      uses: INTI-CMNB/KiBot@v2
+      uses: INTI-CMNB/KiBot@v2_k7
       with:
         # Required - kibot config file
         config: .kibot/config_doc_global.kibot.yaml
@@ -78,7 +78,7 @@ jobs:
       run: echo "{date_only}={$(TZ='${{ env.Timezone }}' date +'%Y-%m-%d')}" >> $GITHUB_OUTPUT
     
     - name: Generate schematic documentation
-      uses: INTI-CMNB/KiBot@v2
+      uses: INTI-CMNB/KiBot@v2_k7
       with:
         # Required - kibot config file
         config: .kibot/config_bom_jack.kibot.yaml
@@ -113,7 +113,7 @@ jobs:
       run: echo "{date_only}={$(TZ='${{ env.Timezone }}' date +'%Y-%m-%d')}" >> $GITHUB_OUTPUT
     
     - name: Generate schematic documentation
-      uses: INTI-CMNB/KiBot@v2
+      uses: INTI-CMNB/KiBot@v2_k7
       with:
         # Required - kibot config file
         config: .kibot/config_bom_circuit.kibot.yaml
