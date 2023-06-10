@@ -42,7 +42,7 @@ jobs:
       run: echo "{date_only}={$(TZ='${{ env.Timezone }}' date +'%Y-%m-%d')}" >> $GITHUB_OUTPUT
     
     - name: Generate gerber documentation
-      uses: INTI-CMNB/KiBot@v2_k6
+      uses: INTI-CMNB/KiBot@v2
       with:
         # Required - kibot config file
         config: .kibot/config_fab_front.kibot.yaml
@@ -76,7 +76,7 @@ jobs:
       run: echo "{date_only}={$(TZ='${{ env.Timezone }}' date +'%Y-%m-%d')}" >> $GITHUB_OUTPUT
     
     - name: Generate gerber documentation
-      uses: INTI-CMNB/KiBot@v2_k6
+      uses: INTI-CMNB/KiBot@v2
       with:
         # Required - kibot config file
         config: .kibot/config_fab_jack.kibot.yaml
@@ -110,7 +110,7 @@ jobs:
       run: echo "{date_only}={$(TZ='${{ env.Timezone }}' date +'%Y-%m-%d')}" >> $GITHUB_OUTPUT
     
     - name: Generate gerber documentation
-      uses: INTI-CMNB/KiBot@v2_k6
+      uses: INTI-CMNB/KiBot@v2
       with:
         # Required - kibot config file
         config: .kibot/config_fab_circuit.kibot.yaml
