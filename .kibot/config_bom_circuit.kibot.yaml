@@ -20,12 +20,12 @@ outputs:
     ray_tracing: true
     zoom: 3
 
-- name: Populate
-  comment: "Guide de montage PCB"
-  type: populate
-  dir: guide-circuit
-  output_id: -circuit
-  options:
-    renderer: render_3d
-    format: md
-    input: .kibot/Populate_circuit.md
+# - name: Populate
+#   comment: "Guide de montage PCB"
+#   type: populate
+#   dir: guide-circuit
+#   output_id: -circuit
+#   options:
+#     renderer: render_3d
+#     format: md
+#     input: .kibot/Populate_circuit.md
