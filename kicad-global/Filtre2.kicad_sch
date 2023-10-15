@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "MS20 VCF double")
+    (date "2023-10-06")
+    (rev "1.4")
+    (company "Bleep Sound")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Operational:LM13700" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 3.81 5.08 0)
@@ -3400,6 +3407,9 @@
     (property "Datasheet" "~" (at 166.37 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Comments" "Use trimmer style pots for CUTCV1 and 2" (at 166.37 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d995d147-d89a-452f-82f8-2e075d3b9abc))
     (pin "2" (uuid 18b07ff6-1de1-459e-b1b4-07fba01919c7))
     (pin "3" (uuid 3efcf1e6-f26f-488f-9a24-1986d771e52a))
@@ -3965,7 +3975,7 @@
     (property "Reference" "J11" (at 226.8728 109.855 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "FilterCV2" (at 226.8728 112.1664 0)
+    (property "Value" "Jack" (at 226.8728 112.1664 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Kicad-perso:Thonkiconn" (at 226.06 115.57 0)
@@ -4018,7 +4028,7 @@
     (property "Reference" "J12" (at 252.2728 109.855 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "FilterOut2" (at 252.2728 112.1664 0)
+    (property "Value" "Jack" (at 252.2728 112.1664 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Kicad-perso:Thonkiconn" (at 251.46 115.57 0)
@@ -4071,7 +4081,7 @@
     (property "Reference" "J15" (at 226.8728 127.635 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "FilterIn2" (at 226.8728 129.9464 0)
+    (property "Value" "Jack" (at 226.8728 129.9464 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Kicad-perso:Thonkiconn" (at 226.06 133.35 0)

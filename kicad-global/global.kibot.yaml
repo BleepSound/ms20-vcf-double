@@ -44,6 +44,7 @@ outputs:
     group_fields:
       - Value
       - Footprint
+      - References
     count_smd_tht: true
     output: '%f_V%sr--BoM.xlsx'
     xlsx: 
