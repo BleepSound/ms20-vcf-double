@@ -20,12 +20,19 @@ Self oscilation if resonance pushed to maximum, can be adjusted with 2 trimmers 
 - 1 trimmer for the sine wave amplitude (resVol)
 - 1 trimmer for the level at which the knob for resonance starts the self oscillation (resLvl)
 
-You'll find the schematic of this module below: 
+## Schematics
 
-![single MS20-VCF schematic](documentation/image/MS20-VCF-schematic.svg)
-![single MS20-VCF schematic](documentation/image/MS20-VCF-Filtre2.svg)
+You'll find only the first filter below, the second filter is exactly the same.
 
-Uses an SMD LM13700 because the DIP ones are not produced anymore.
+![single MS20-VCF schematic](documentation/image/MS20-VCF--Schematic.svg)
+
+## BoM
+
+[See bom](documentation/bom/MS20-VCF_V1.4--iBoM.html)
+
+## Build Informations
+
+Uses an SMD LM13700 because the DIP ones are not produced anymore, hence more expensive.
 
 Regular build, I use ceramic capacitors but you can use film/polyester.
 
@@ -34,12 +41,17 @@ Regular build, I use ceramic capacitors but you can use film/polyester.
 - resistors
 - DIP chips
 - capacitors (film/ceramic)
+- Transistors
 - Electrolytic capacitors
 
-For the next part, always place them without soldering them on: 
-- jacks, pots and switches that go thought the front panel
+To solder the headers, place them and place both PCBs in their final position before fully soldering the pin headers/sockets.
 
-Once placed, put in place the front panel, then fasten all components to it. Once this is done, you can solder them. 
+For the next parts, always place them without soldering them on: 
+- jacks, pots and switches that go throught the front panel
+
+Once placed, put the front panel in place, then fasten all components to it. Once this is done, you can solder all the remaining components.
+
+## Images
 
 ![3D single MS20-VCF(front)](documentation/image/MS20-VCF-3D_top.png)
 
@@ -47,8 +59,4 @@ Once placed, put in place the front panel, then fasten all components to it. Onc
 
 ![3D single MS20-VCF(iso)](documentation/image/MS20-VCF-3D_top30deg.png)
 
-[See bom globale](documentation/bom/MS20-VCF-ibom-global.html)
 
-[See bom board jack](documentation/bom/MS20-VCF-ibom-jack.html)
-
-[See bom board circuit](documentation/bom/MS20-VCF-ibom-circuit.html)
