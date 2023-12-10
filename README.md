@@ -30,6 +30,8 @@ You'll find only the first filter below, the second filter is exactly the same.
 
 [See bom](documentation/bom/MS20-VCF_V1.4--iBoM.html)
 
+You have a bom in excel format available in the bom folder. 
+
 ## Build Informations
 
 Uses an SMD LM13700 because the DIP ones are not produced anymore, hence more expensive.
