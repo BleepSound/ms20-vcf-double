@@ -30,7 +30,7 @@ You'll find only the first filter below, the second filter is exactly the same.
 
 [See bom](documentation/bom/MS20-VCF_V1.4--iBoM.html)
 
-You have a bom in excel format available in the bom folder. 
+You can donwload the bom in excel format [here](https://github.com/BleepSound/ms20-vcf-double/releases/download/V1.4/MS20-VCF_V1.4--BoM.xlsx).
 
 ## Build Informations
 
