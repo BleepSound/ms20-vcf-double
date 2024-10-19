@@ -7,11 +7,13 @@ layout: single
 
 MS20-VCF clone based on BartonSynth version.
 
+Size: 12HP
+
 2 filters in one with a possibility to bridge them and get a band pass filter.
 
-When using the band pass mode, signal IN on filter 1 and out on filter 2.
+When using the band pass mode, signal IN on filter 1 and OUT on filter 2.
 
-cutoff + resonance, with a switch to chose low pass or high pass mode.
+Cutoff + Resonance, with a switch to chose low pass or high pass mode.
 
 CV control on the filter cutoff.
 
@@ -20,11 +22,13 @@ Self oscilation if resonance pushed to maximum, can be adjusted with 2 trimmers 
 - 1 trimmer for the sine wave amplitude (resVol)
 - 1 trimmer for the level at which the knob for resonance starts the self oscillation (resLvl)
 
+
+
 ## Schematics
 
 You'll find only the first filter below, the second filter is exactly the same.
 
-![single MS20-VCF schematic](documentation/image/MS20-VCF--Schematic.svg)
+![double MS20-VCF schematic](documentation/image/MS20-VCF--Schematic.svg)
 
 ## BoM
 
@@ -61,4 +65,8 @@ Once placed, put the front panel in place, then fasten all components to it. Onc
 
 ![3D single MS20-VCF(iso)](documentation/image/MS20-VCF-3D_top30deg.png)
 
+## Download
 
+Follow this link if you want to dowload the latest version of gerber files, schematic, kicad files...
+
+:arrow_down: [**Download**](https://github.com/BleepSound/ms20-vcf-double/releases)
