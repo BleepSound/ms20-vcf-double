@@ -1,8 +1,3 @@
----
-permalink: /index.html
-layout: single
----
-
 # MS20 VCF
 
 MS20-VCF clone based on BartonSynth version.
