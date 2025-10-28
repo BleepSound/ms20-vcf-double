@@ -40,11 +40,12 @@ outputs:
     - References
     - Value
     - Quantity Per PCB
+    - Links
     - Comments
     group_fields:
       - Value
       - Footprint
-      - References
+      #- References
     count_smd_tht: true
     output: '%f_V%sr--BoM.xlsx'
     xlsx: 
