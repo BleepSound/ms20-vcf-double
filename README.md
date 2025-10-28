@@ -1,5 +1,7 @@
 # MS20 VCF
 
+Latest documentation available at https://bleepsound.github.io/ms20_vcf_double/
+
 MS20-VCF clone based on BartonSynth version.
 
 Size: 12HP
